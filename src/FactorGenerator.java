@@ -38,4 +38,22 @@ public class FactorGenerator {
         }
         return factor;
     }
+    
+    //Create one methood that returns a string
+    // in that method, create a local variable that accumulates the factors
+    // use one for loop to add all factors to the list
+    // return the string
+    
+    // something like
+    // for (int i = 1; i <= numberToFactor; i++) {
+    // String factors = "";
+    //  if(numberToFactor % i == 0) {
+    //       factors += i;
+    //       if (numberToFactor != i) {
+    //               factors += ", ";
+    //        }
+    //    }
+    // }
+    // return factors;
+    // }
 }
